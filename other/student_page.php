@@ -75,36 +75,9 @@
         <div id="welcome">
             <p><h3>Student Account Information</h3></p>
                 <p><a href="#" rel="nofollow">Edit</a></p>
-            <?php
-/*          $acct_fname = $_POST['fname'];
-            $acct_lname = $_POST['lname'];
-            $acct_gender = $_POST['gender'];
-            $acct_username = $_POST['username'];
-            $acct_email = $_POST['email'];
-            $acct_password = $_POST['password'];
-            $acct_phone = $_POST['phone'];
-            $acct_major = $_POST['major'];
-            */?>
-            <p>
-                First name: <?php /*echo $acct_fname */?>
-                <br/>
-                Last name: <?php /*echo $acct_lname */?>
-                <br/>
-                Gender: <?php /*echo $acct_gender */?>
-                <br/>
-                Email: <?php /*echo $acct_email */?>
-                <br/>
-                Username: <?php /*echo $acct_username */?>
-                <br/>
-                Password: <?php /*echo $acct_password */?>
-                <br/>
-                Phone number: <?php /*echo $acct_phone */?>
-                <br/>
-                Major: <?php /*echo $acct_major */?>
-                <br/>
-            </p>
+          
  <!-- Send Button -->
-                            <button type="submit" id="submit" name="submit" onclick="stregister()" class="form-btn semibold">edit</button>
+                            <button href="volunteerview.php" class="form-btn semibold">Edit Volunteer Info</button>
         </div>
     </div>
 

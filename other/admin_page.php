@@ -59,12 +59,12 @@
         </div>
         <div id="menu" class="container">
             <ul>
-                 <li><a href="index.html" accesskey="1" title="">Home</a></li>
+               <li><a href="index.html" accesskey="1" title="">Home</a></li>
 				<li><a href="student_page.php" accesskey="1" title="">student page</a></li>
-				<li class="current_page_item"><a href="volunteer_page.php" accesskey="2" title="">volunteer page</a></li>
+				<li><a href="volunteer_page.php" accesskey="2" title="">volunteer page</a></li>
 				<li><a href="student_registration.html" accesskey="4" title="">Student Registration</a></li>
 				<li><a href="volunteer_registration.html" accesskey="3" title="">Volunteer Registration</a></li>
-				<li><a href="admin_page.php" accesskey="1" title="">admin page</a></li>
+				<li class="current_page_item"><a href="admin_page.php" accesskey="1" title="">admin page</a></li>
 				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
             </ul>
         </div>
@@ -73,7 +73,7 @@
 
     <div id="welcome-wrapper">
         <div id="welcome">
-            <p><h3>VOLUNTEER Account Information</h3></p>
+            <p><h3>ADMIN Account Information</h3></p>
                 <p><a href="#" rel="nofollow">Edit</a></p>
             <?php
 /*          $acct_fname = $_POST['fname'];
@@ -84,16 +84,6 @@
             $acct_password = $_POST['password'];
             $acct_phone = $_POST['phone'];
             $acct_address = $_POST['address'];
-            $acct_transportair = $_POST['transportair'];
-            $acct_ptime = $_POST['ptime'];
-            $acct_luggage = $_POST['luggage'];
-            $acct_trips = $_POST['trips'];
-            $acct_comments = $_POST['comments'];
-            $acct_house = $_POST['house'];
-            $acct_temphouse = $_POST['temphouse'];
-            $acct_timeframe = $_POST['timeframe'];
-            $acct_whenhouse = $_POST['whenhouse'];
-            $acct_guestgender = $_POST['guestgender'];
             */?>
             <h3>BASIC INFORMATION</h3>
             <p>
@@ -113,39 +103,12 @@
                 <br/>
                 Password: <?php /*echo $acct_password */?>
                 <br/>
+				
             </p>
-
-            <h3>Airport Pick-Up INFORMATION</h3>
-            <p>
-                Provide Airport Transportation: <?php /*echo $acct_transportair */?>
-                <br/>
-                Student Pick-Up Time: <?php /*echo $acct_ptime */?>
-                <br/>
-                Total Luggage Capacity: <?php /*echo $acct_luggage */?>
-                <br/>
-                Total Trips: <?php /*echo $acct_trips */?>
-                <br/>
-                Comments: <?php /*echo $acct_comments */?>
-                <br/>
-            </p>
-
-            <h3>Temporary Housing INFORMATION</h3>
-            <p>
-                Provide Temporary Housing: <?php /*echo $acct_temphouse */?>
-                <br/>
-                Total Students Housed: <?php /*echo $acct_house */?>
-                <br/>
-                Housing Duration: <?php /*echo $acct_timeframe */?>
-                <br/>
-                Housing Time: <?php /*echo $acct_whenhouse */?>
-                <br/>
-                Gender Preference: <?php /*echo $acct_guestgender */?>
-                <br/>
-                Comments: <?php /*echo $acct_comments */?>
-                <br/>
-            </p>
- <!-- Send Button -->
+							 <!-- Send Button -->
                             <button type="submit" id="submit" name="submit" onclick="stregister()" class="form-btn semibold">Edit</button>
+							 <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" onclick="stregister()" class="form-btn semibold">Delete</button>
         </div>
     </div>
 
